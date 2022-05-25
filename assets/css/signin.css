@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(243, 240, 240);
+}
+h3{
+    position: absolute;
+    left: 40%;
+    font-size: 30px;
+    color: blue;
+}
+.card{
+    margin-top: 4%;
+    height: 60vh;
+    width: 30%;
+    box-shadow: 5px 5px 5px 5px rgb(248, 241, 241);
+    background-color: #ffff;
+    padding: 11px;
+    position: absolute;
+    left: 40%;
+    
+}
