@@ -7,6 +7,11 @@ h3{
     font-size: 30px;
     color: blue;
 }
+.form >input{
+       padding: 10px;
+    border-radius: 10px;
+    padding-left: 25px;
+}
 .card{
     margin-top: 4%;
     height: 75vh;
