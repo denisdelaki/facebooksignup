@@ -3,22 +3,25 @@ body{
 }
 h3{
     position: absolute;
-    left: 40%;
-    font-size: 30px;
+    left: 50%;
+    font-size: 60px;
     color: blue;
-}.topDiv{
-    display: block;
+    top: -40px;
+}.topDiv{   
+    height: 10vh;
+    min-width: 100%;
+    
 }
 
 .topDiv >h4{
- font-size: 25px;
+    font-size: 25px;
  line-height: 32px;
  text-align: center;
  font-weight: 600px;
  color: #333;
 }
 .topDiv >p{
-    font-size: 15px;
+    font-size: 20px;
     line-height: 24px;
     text-align: center;
 }
@@ -63,13 +66,25 @@ span{
         border-radius: 5px;
     }
     button{
-        padding: 0 32px;
+        padding: 7px 50px;
         color: white;
         background-color: #00a400;
         border-radius: 6px;
-        font-size: 18px;
+        font-size: 20px;
         text-shadow: none;
         overflow: hidden;
         line-height: 126%;
+        border: none;
+        }
+    .button{
+        position: absolute;
+        left: 30%;
 
+    }
+    a{
+        text-decoration: none;
+    }
+    .button >a {
+        text-decoration: none;
+        font-size: 20px;
     }
