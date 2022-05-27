@@ -12,16 +12,21 @@
     <h3>Facebook</h3>
     <div class="card">
       <div class="topDiv">
-        <h4> <b> Create a new account </b></h4>
+        <h4><b> Create a new account </b></h4>
         <p>It's quick and easy</p>
       </div>
-      <hr>
+      <hr />
       <div>
-        <form  id="form" class="form">
-          <input type="text" placeholder="First name" required />
-          <input type="text" placeholder="Surname" required />
-          <br />
-          <br />
+        <form id="form" class="form">
+          <div class="name">
+            <input
+              class="fname"
+              type="text"
+              placeholder="First name"
+              required
+            />
+            <input class="sname" type="text" placeholder="Surname" required />
+          </div>
           <p>Enter your email to signup</p>
           <input
             type="email"
@@ -29,15 +34,26 @@
             required
           /><br /><br />
           <p>Enter your phone number to signup</p>
-          <input type="text" placeholder="Mobile number" required /><br /><br />
+          <input
+            class="phone"
+            type="text"
+            placeholder="Mobile number"
+            required
+          /><br /><br />
           <p>Enter password</p>
           <input
+            class="password"
             type="password"
             placeholder="Enter password"
             required
           /><br /><br />
           <p>Confirrm the password</p>
-          <input type="password" placeholder="Confirm the password" required />
+          <input
+            class="password"
+            type="password"
+            placeholder="Confirm the password"
+            required
+          />
           <br />
           <p>Date of birth</p>
           <label>
@@ -117,13 +133,28 @@
             </select>
           </label>
           <p>Gender</p>
-<span>Female<input type="radio" placeholder="female"></span>
-<span>Male <input type="radio" placeholder="male"></span>
-<span>Other <input type="radio" placeholder="Other"></span>
+          <span
+            >Female <input class="radio" name="gender" type="radio" placeholder="female"
+          /></span>
+          <span
+            >Male <input class="radio" name="gender" type="radio" placeholder="male"
+          /></span>
+          <span
+            >Other <input class="radio" name="gender" type="radio" placeholder="Other"
+          /></span>
           <br /><br />
-          <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You <br>may receive SMS notifications from us and can opt out at any time.</p>
+          <p>
+            People who use our service may have uploaded your contact
+            information to Facebook. <a href="#"> Learn more.</a>
+          </p>
+          <p>
+            By clicking Sign Up, you agree to our Terms, Data Policy and Cookie
+            Policy. You <br />may receive SMS notifications from us and can opt
+            out at any time.
+          </p>
           <button type="submit" id="signup" onclick="signup ()">signup</button>
- .       </form>
+          <a href="login.html"><h4>Already have an account?</h4></a>
+        </form>
       </div>
     </div>
     <script src="/assets/js/sign.js"></script>
